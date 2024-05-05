@@ -743,3 +743,20 @@
 .clear-button:hover {
   background-color: #bbb;
 }
+
+.update-profile-button {
+  position: absolute;
+  top: -150px; /* Adjust top position as needed */
+  left: 1200px; /* Adjust left position as needed */
+  padding: 10px 20px;
+  background-color: var(--color-darkslategray-200);
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.update-profile-button:hover {
+  background-color: var(--color-darkslategray-300);
+}

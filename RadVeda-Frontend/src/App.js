@@ -5,6 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import LabStaffUpdateProfile from "./pages/LabStaffUpdateProfile";
+import PatientProfileUpdatePage from "./pages/PatientProfileUpdatePage"; 
+import RadUpdateProfile from "./pages/RadUpdateProfile"; 
+import DocUpdateProfile from "./pages/DocUpdateProfile"; 
 import LabStaffSignup from "./pages/LabStaffSignup";
 import LabStaffSignup1 from "./pages/LabStaffSignup1";
 import LabStaffSignup2 from "./pages/LabStaffSignup2";
@@ -535,13 +539,13 @@ function App() {
 
   return (
     <Routes >
-      
       <Route path="/labstaff-signup" element={<LabStaffSignup />} />
       <Route path="/labstaff-signup-1" element={<LabStaffSignup1 />} />
       <Route path="/labstaff-signup-2" element={<LabStaffSignup2 />} />
       <Route path="/labstaff-login-page" element={<LabStaffLoginPage />} />
       <Route path="/labstaff-test-pending" element={<LabStaffTestPending />} />
       <Route path="/labstaff-dashboard" element={<LabStaffDashboard />} />
+      <Route path="/labstaff/profile/update" element={<LabStaffUpdateProfile />} />
       <Route
         path="/labstaff-remarks-upload"
         element={<LabStaffRemarksUpload />}
@@ -592,6 +596,7 @@ function App() {
       <Route path="/rad-own-pfr-doc-hist" element={<RadOwnPfrDocHist />} />
       <Route path="/rad-own-diag-comp-hist" element={<RadOwnDiagCompHist />} />
       <Route path="/doc-dashboard" element={<DocDashboard />} />
+      <Route path="/doc-update-profile" element={<DocUpdateProfile />} />
       <Route path="/doc-signup-1" element={<DocSignup />} />
       <Route path="/doc-signup-3" element={<DocSignup1 />} />
       <Route path="/doc-signup-2" element={<DocSignup2 />} />
@@ -633,6 +638,8 @@ function App() {
       />
       <Route path="/patient-pfr-doctor" element={<PatientPfrDoctor />} />
       <Route path="/patient-diag-complete" element={<PatientDiagComplete />} />
+      <Route path="/profile/update" element={<PatientProfileUpdatePage />} />
+      {/* <Route path="/patient-profile-update" element={<PatientProfileUpdatePage />} /> */}
       <Route path="/patient-dashboard" element={<PatientDashboard />} />
       <Route path="/admin-signup-1" element={<AdminSignup />} />
       <Route path="/admin-signup-3" element={<AdminSignup1 />} />
@@ -657,6 +664,7 @@ function App() {
       <Route path="/rad-signup-2" element={<RadSignup2 />} />
       <Route path="/rad-login-page" element={<RadLoginPage />} />
       <Route path="/rad-cons-pat-details" element={<RadConsPatDetails />} />
+      <Route path="rad-dashboard/rad/profile/update" element={<RadUpdateProfile />} />
       <Route path="/rad-cons-pfr-cons-rad" element={<RadConsPfrConsRad />} />
       <Route
         path="/rad-cons-pfrbd-cons-rad"
