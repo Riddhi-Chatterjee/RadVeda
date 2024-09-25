@@ -28,7 +28,7 @@ RadVeda is a comprehensive tele-radiology platform designed to streamline the pr
   - Stored and annotated medical images in DICOM format, ensuring high compatibility with medical imaging systems.
 
 - **Chatting Sub-System:**
-  - Built-in native chatting sub-system to facilitate real-time communication between doctors, radiologists, and lab personnel.
+  - Built-in native chatting sub-system to facilitate real-time communication between doctors, radiologists, and patients.
 
 - **Admin Dashboard:**
   - Provided analytics dashboards for system admins to monitor platform usage and performance metrics.
@@ -46,9 +46,6 @@ We welcome contributions from the community to help enhance and expand the RadVe
 - Extending support for additional medical imaging formats.
 - Enhancing the chat system with video conferencing capabilities for better collaboration.
 - Integrating AI-based diagnostics for preliminary analysis of radiology images.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
